@@ -1,0 +1,151 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Sans-Serif;
+	line-height: 1.5em;
+    background-image: url(background.jpg);
+    background-size: cover;
+   
+}
+
+#header {
+	background-image: url(headerimg.jpg);
+    border: 2px solid #000000;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#header h1 {
+    font-size: 50px;
+	margin: 0;
+	padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+main {
+	padding-bottom: 10010px;
+	margin-bottom: -10000px;
+	float: left;
+	width: 100%;
+    height: 100%;
+    
+}
+
+#nav {
+	padding-bottom: 10010px;
+	margin-bottom: -10000px;
+	float: left;
+	width: 230px;
+	margin-left: -100%;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#footer {
+	background: rgba(181, 177, 177, 0.45);
+	text-align: center;
+    border-top: 1px solid rgba(14, 2, 150, 0.75);
+    font-size: .75em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;       
+}
+
+#wrapper {
+	overflow: hidden;
+}
+
+#content {
+	margin-left: 230px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul a {
+	color: darkgreen;
+	text-decoration: none;
+}
+
+.container { 
+    height: 100%;
+    width: 100%;
+  }
+
+.red{
+    float: left;
+    margin: 10px;
+    height: 500px;
+    width: 300px;
+    display:inline-block;
+    background-color: #ffc1c1;
+    border-radius: 25px;
+    text-align: center;   
+}
+
+.green{
+    float: left;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+    display:inline-block;
+    background-color:#b4ffb4;
+    border-radius: 25px;
+    text-align: center;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    
+}
+
+.blue{
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+    background-color: #ceceff;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+#aboutmebg {
+    margin: 10px;
+    height: 80%;
+    width: 80%;
+    background-color: rgb(144, 222, 147);
+    text-align: center;
+    font-family:sans-serif;
+    
+}
+
+#designbg {
+    margin: 5px;
+    height: 80%;
+    width: 80%;
+    background-color: rgba(77, 44, 217, 0.91);
+    font-family:sans-serif;
+    color: #FFFFFF;
+    
+}
+
+#opening {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
