@@ -22,7 +22,6 @@ body {
 nav ul {
 	list-style-type: none;
 	text-align: left;
-	align-content: left;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;

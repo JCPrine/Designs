@@ -154,7 +154,7 @@ form {
 }
 
 #rd-box {
-    float: right;
+    float: left;
     width: 180px;
     height: 260px;
     background-color: white;
@@ -203,8 +203,8 @@ h1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -146px; // half of height
-    margin-left: -229px; // half of width
+    margin-top: -146px;
+    margin-left: -229px; 
     cursor: pointer;
 }
 
