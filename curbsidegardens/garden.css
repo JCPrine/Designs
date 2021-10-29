@@ -154,7 +154,7 @@ form {
 }
 
 #rd-box {
-    float: right;
+    float: left;
     width: 180px;
     height: 260px;
     background-color: white;
