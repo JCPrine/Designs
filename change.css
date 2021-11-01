@@ -47,7 +47,7 @@ main {
 #footer {
 	background: rgba(181, 177, 177, 0.45);
 	text-align: center;
-    border-top: 1px solid rgba(14, 2, 150, 0.75);
+    border-top: 1px solid #0e0296;
     font-size: .75em;
     position: fixed;
     bottom: 0;
@@ -121,10 +121,11 @@ nav ul a {
 
 #aboutmebg {
     margin: 10px;
+    padding: 2px;
     height: 80%;
     width: 80%;
-    background-color: rgb(144, 222, 147);
-    text-align: center;
+    background-color: #90de93;
+    text-align: left;
     font-family:sans-serif;
     
 }
@@ -133,7 +134,7 @@ nav ul a {
     margin: 5px;
     height: 80%;
     width: 80%;
-    background-color: rgba(77, 44, 217, 0.91);
+    background-color: #4d2cd9;
     font-family:sans-serif;
     color: #FFFFFF;
     
@@ -148,4 +149,13 @@ nav ul a {
     bottom: 0;
 }
 
-
+#edgoalsbg {
+    margin: 10px;
+    height: 250px;
+    width: 600px;
+    display:inline-block;
+    background-color: #dda360;
+    border-radius: 25px;
+    text-align: center;   
+    
+}

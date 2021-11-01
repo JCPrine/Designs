@@ -126,7 +126,7 @@ form {
 }
 
 .container {
-    width: 608px;
+    width: 606px;
     height: 270px;
     background-color: #ba7a3a;
     padding: 20px;
@@ -135,32 +135,33 @@ form {
 }
 
 #st-box {
+    float: left;
     width: 180px;
     height: 260px;
     background-color: white;
     border: solid black;
     text-align: center;
-    float: left;
 }
 
 #nd-box {
+    float: left;
     width: 180px;
     height: 260px;
     background-color: white;
     border: solid black;
     margin-left: 25px;
     text-align: center;
-    float: left;
 }
 
 #rd-box {
+    float: left;
     width: 180px;
     height: 260px;
     background-color: white;
     border: solid black;
     text-align: center;
     margin-left: 25px;
-    float: right;
+    
 }
 
 h1 {
