@@ -1,0 +1,141 @@
+:root {
+  --bg: #0b1d2a;
+  --card: #ffffff;
+  --accent: #00a8e8;
+  --text: #f4f8fb;
+  --dark-text: #1b2b38;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(180deg, #eaf4ff 0%, #d6ebff 100%);
+  color: var(--dark-text);
+}
+
+.hero {
+  background: linear-gradient(160deg, rgba(11, 29, 42, 0.96), rgba(23, 62, 88, 0.9)),
+    url("../images/headerimg.jpg") center/cover;
+  color: var(--text);
+  padding: 1.25rem 6vw 5rem;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.top-nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.logo {
+  font-size: 1.2rem;
+}
+
+.hero-content {
+  max-width: 650px;
+  margin-top: 4rem;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(0, 168, 232, 0.18);
+  border: 1px solid rgba(0, 168, 232, 0.5);
+  color: #b7ebff;
+  border-radius: 999px;
+  padding: 0.4rem 0.85rem;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin: 0.8rem 0;
+}
+
+.intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.button {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.2rem;
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+main {
+  width: min(1050px, 92vw);
+  margin: -2.2rem auto 0;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 1.3rem;
+  box-shadow: 0 12px 32px rgba(9, 29, 43, 0.1);
+}
+
+.feature-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.highlights,
+.contact {
+  background: #fff;
+  margin-top: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(8, 32, 50, 0.1);
+  padding: 1.5rem;
+}
+
+.highlight-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.highlight-items h3 {
+  color: #05618d;
+  margin-bottom: 0.2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #355062;
+}
